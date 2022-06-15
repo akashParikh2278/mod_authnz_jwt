@@ -814,7 +814,7 @@ static int auth_jwt_login_handler(request_rec *r){
 	}
 
 	ap_log_rerror(APLOG_MARK, APLOG_DEBUG, 0, r, APLOGNO(55200)
-							"auth_jwt authn: authentication handler is handling authentication");
+							"auth_jwt authn: authentication handler is handling authentication 2278 Check");
 
  	int res;
  	char* buffer;
