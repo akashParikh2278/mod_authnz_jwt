@@ -16,7 +16,7 @@ RUN git clone https://github.com/benmcollins/libjwt.git && \
     make && \
     make install
 
-RUN git clone https://github.com/AnthonyDeroche/mod_authnz_jwt.git && \
+RUN git clone https://github.com/akashParikh2278/JWTAuthZ && \
     cd mod_authnz_jwt && \
     git checkout tags/v$MOD_AUTHNZ_JWT_VERSION && \
     autoreconf -ivf && \
